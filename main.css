@@ -7,6 +7,10 @@ body {
 	background-color: #d1f4fa;
 }
 
+body.pink {
+	background-color: #ffe6eb;
+}
+
 h1 {
 	font-family: 'Monoton', cursive;
 	color: #005792;
@@ -46,7 +50,6 @@ input {
   text-transform: uppercase;
   font-family: 'Montserrat' sans-serif;
   transition: all .5s linear;
-
 }
 
 .goBtn:hover {

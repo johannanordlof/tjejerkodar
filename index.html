@@ -19,6 +19,28 @@
 			</div>
 			<button class="addBtn">Add</button>
 		</div>
+		<div class="resultSection"></div>
 		<button class="goBtn">Go!</button>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function() {
+				$('.resultSection').hide()
+
+				var add_option = function() {
+					$('.inputs').append('<input></input>')
+				}
+
+				$('.addBtn').click(add_option)
+
+				var change_colour = function() {
+					$('body').toggleClass("pink")
+				}
+
+				$('h1').click(change_colour)
+
+			})
+		</script>
+
 	</body>
 </html>
