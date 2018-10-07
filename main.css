@@ -57,6 +57,14 @@ input {
 	background: #ffcdcd;
 }
 
+.goBtn.pink {
+	color: #ffcdcd;
+}
+
+.goBtn.pink:hover {
+	color: #ffe6eb;
+}
+
 .addBtn {
 	padding: 10px 10px;
 	background: inherit;
@@ -75,11 +83,19 @@ input {
 	background: #ffcdcd;
 }
 
-@-webkit-keyframes spinning {
+.addBtn.pink {
+	color: #ffcdcd;
+}
+
+.addBtn.pink:hover {
+	color: #ffe6eb;
+}
+
+/*@-webkit-keyframes spinning {
   from {
     -webkit-transform: rotate(0deg);
 	}
   to {
     -webkit-transform: rotate(360deg);
 	}
-}
+}*/
