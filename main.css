@@ -91,6 +91,20 @@ input {
 	color: #ffe6eb;
 }
 
+.resultSection {
+	font-family: 'Monoton', cursive;
+	color: #005792;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: lighter;
+	font-size: 60px;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+
+}
+
 /*@-webkit-keyframes spinning {
   from {
     -webkit-transform: rotate(0deg);

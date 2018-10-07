@@ -6,7 +6,7 @@
 		<title>Spagetti Queen</title>
 		<link href="./main.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	</head>
 
@@ -41,6 +41,19 @@
 
 				$('h1').click(change_colour)
 
+
+				var options = []
+
+				var submit = function() {
+					$('.inputSection').hide()
+					$('.resultSection').css('display', 'flex')
+					$('input').each(function() {
+						options.push($(this).val())
+					})
+					var winner = options[Math.floor(Math.random() * options.length)]
+					$('.resultSection').text(winner)
+				}
+				$('.goBtn').click(submit)
 			})
 		</script>
 
