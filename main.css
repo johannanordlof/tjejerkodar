@@ -76,6 +76,7 @@ input {
 	text-transform: uppercase;
 	font-family: 'Montserrat' sans-serif;
 	transition: all .5s linear;
+	margin-top: 10px;
 }
 
 .addBtn:hover {
